@@ -1,0 +1,144 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/vnd.sdmx.data+csv; version=2.0.0; labels=both
+    method: GET
+    uri: https://sdmx.oecd.org/public/rest/v2/data/dataflow/OECD.SDD.NAD/DSD_NAMAIN1%40DF_QNA_EXPENDITURE_USD/1.1/Q.*.USA.S1.*.B1GQ.*.*.*.*.V.*.*?c%5BTIME_PERIOD%5D=ge%3A2020-01%2Cle%3A2023-06&detail=full&dimensionAtObservation=TIME_PERIOD
+  response:
+    body:
+      string: "STRUCTURE,STRUCTURE_ID,ACTION,FREQ: Frequency of observation,ADJUSTMENT:
+        Adjustment,REF_AREA: Reference area,SECTOR: Institutional sector,COUNTERPART_SECTOR:
+        Counterpart institutional sector,TRANSACTION: Transaction,INSTR_ASSET: Financial
+        instruments and non-financial assets,ACTIVITY: Economic activity,EXPENDITURE:
+        Expenditure,UNIT_MEASURE: Unit of measure,PRICE_BASE: Price base,TRANSFORMATION:
+        Transformation,TABLE_IDENTIFIER: Table identifier,TIME_PERIOD: Time period,OBS_VALUE,REF_YEAR_PRICE:
+        Price reference year,BASE_PER: Base period,CONF_STATUS: Confidentiality status,DECIMALS:
+        Decimals,OBS_STATUS: Observation status,UNIT_MULT: Unit multiplier,CURRENCY:
+        Currency\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2020-Q2,19958291,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2021-Q2,23425910,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2021-Q1,22680693,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2023-Q2,27530055,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2020-Q1,21751238,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2023-Q1,27216445,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2022-Q4,26770514,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2022-Q3,26336304,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2022-Q2,25861292,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2022-Q1,25250347,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2021-Q4,24813600,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2021-Q3,23982379,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2020-Q4,22087160,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\nDATAFLOW,OECD.SDD.NAD:DF_QNA_EXPENDITURE_USD(1.1),I,Q:
+        Quarterly,Y: Calendar and seasonally adjusted,USA: United States,S1: Total
+        economy,S1: Total economy,B1GQ: Gross domestic product,_Z: Not applicable,_Z:
+        Not applicable,_Z: Not applicable,\"USD_PPP: US dollars, PPP converted\",V:
+        Current prices,LA: Annual levels,T0102: Table 0102 - GDP identity from the
+        expenditure side,2020-Q3,21704437,,,F: Free (free for publication),1: One,A:
+        Normal value,6: Millions,USD: US dollar\r\n"
+    headers:
+      CF-RAY:
+      - 9dc5fdbe4fc53753-YVR
+      Cache-Control:
+      - public,max-age=7200
+      Connection:
+      - keep-alive
+      Content-Language:
+      - en,en-US
+      Content-Type:
+      - application/vnd.sdmx.data+csv; charset=utf-8; labels=both; version=2.0.0
+      Date:
+      - Sat, 14 Mar 2026 20:22:36 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=2592000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - X-Range, Accept, Accept-Language, Accept-Encoding, Accept-Charset,Accept,Accept-Encoding,Accept-Encoding
+      X-Server-Node:
+      - Server 1
+      alt-svc:
+      - h3=":443"; ma=86400
+      api-supported-versions:
+      - '2'
+      cf-cache-status:
+      - MISS
+      last-modified:
+      - Sat, 14 Mar 2026 20:22:36 GMT
+      set-cookie:
+      - __cf_bm=57pZB9DDD.KbMQ1bjz.nrIONKUpXnDuQbhxsQ.LjSD4-1773519753.961757-1.0.1.1-J_DnbU5R5bKJFeMBmOVx8jvrHdR2bL8wE4kDviZJMl12mqc_p4SCXyo8_ColT.9aRAXMAL9MsmifgWNtPgLqSatDUJGE2W7_ZQlWEAUzvRxDP6e009kSxilrsJWIRAtJ;
+        HttpOnly; Secure; Path=/; Domain=oecd.org; Expires=Sat, 14 Mar 2026 20:52:36
+        GMT
+      - _cfuvid=YT_Z.CyEfd4MaOGCfM44D7CJC_pUo702WjNFoLbN0po-1773519753.961757-1.0.1.1-oITCoUxnKH99fVwXWUi0_fsGhYjRYcqTdBJkFWo6sis;
+        HttpOnly; SameSite=None; Secure; Path=/; Domain=oecd.org
+    status:
+      code: 200
+      message: OK
+version: 1

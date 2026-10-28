@@ -1,0 +1,1 @@
+"""OpenBB Quantitative Analysis Extension."""

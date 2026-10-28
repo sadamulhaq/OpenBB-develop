@@ -1,0 +1,61 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/vnd.sdmx.data+csv; version=2.0.0; labels=both
+    method: GET
+    uri: https://sdmx.oecd.org/public/rest/v2/data/dataflow/OECD.ECO.MAD/DSD_EO%40DF_EO/1.5/USA.GDPV_USD.A?c%5BTIME_PERIOD%5D=ge%3A2023-01%2Cle%3A2024-01&detail=full&dimensionAtObservation=TIME_PERIOD
+  response:
+    body:
+      string: "STRUCTURE,STRUCTURE_ID,ACTION,REF_AREA: Reference area,MEASURE: Measure,FREQ:
+        Frequency of observation,TIME_PERIOD: Time period,OBS_VALUE,OBS_STATUS: Observation
+        status,UNIT_MEASURE: Unit of measure,UNIT_MULT: Unit multiplier,CURRENCY:
+        Currency,BASE_PER: Base period,METHODOLOGY: Methodology,DECIMALS: Decimals,PRICE_BASE:
+        Price base,ADJUSTMENT: Adjustment\r\nDATAFLOW,OECD.ECO.MAD:DSD_EO@DF_EO(1.5),I,USA:
+        United States,\"GDPV_USD: Gross domestic product, volume in USD, constant
+        exchange rates\",A: Annual,2023,25031611545935,,\"USD_EXC: US dollars, exchange
+        rate converted\",0: Units,,2021,,2: Two,L: Chain linked volume,\r\n"
+    headers:
+      Age:
+      - '1252'
+      CF-RAY:
+      - a0cd2df83b6c0b9d-YVR
+      Cache-Control:
+      - public,max-age=7200
+      Connection:
+      - keep-alive
+      Content-Language:
+      - en,en-US
+      Content-Type:
+      - application/vnd.sdmx.data+csv; version=2.0.0; labels=both; charset=utf-8
+      Date:
+      - Tue, 16 Jun 2026 22:16:33 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=2592000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - X-Range, Accept, Accept-Language, Accept-Encoding, Accept-Charset,Accept,Accept-Encoding,Accept-Encoding
+      X-Server-Node:
+      - Server 1
+      alt-svc:
+      - h3=":443"; ma=86400
+      api-supported-versions:
+      - '2'
+      cf-cache-status:
+      - HIT
+      last-modified:
+      - Tue, 16 Jun 2026 21:55:41 GMT
+      set-cookie:
+      - __cf_bm=KHkYizjjOqn4uHmPavcPhH_Qd07ynlDDslxjp5rxmrc-1781648193.3126335-1.0.1.1-fK0VpMjmWywg9CfWTOO4B0niEO6IfcscD7brdrX6O2Inj9DYmfANGX6XtHjwepq.y5CS3Ln.tLYW8xD9bL9BIQ4Vt4kMoorAOPTYYyREb2va1vcezyJJtlf5qjIkLqnj;
+        HttpOnly; SameSite=None; Secure; Path=/; Domain=oecd.org; Expires=Tue, 16
+        Jun 2026 22:46:33 GMT
+      - _cfuvid=5RbRWPtgwaqTMyMdaI164iuhq9aZZeV1SbNwwOyAkb0-1781648193.3126335-1.0.1.1-jJ_ibeQY0W5eN2p1gTLyeS7jQLjNZIciuNFEkxuTAvo;
+        HttpOnly; SameSite=None; Secure; Path=/; Domain=oecd.org
+    status:
+      code: 200
+      message: OK
+version: 1

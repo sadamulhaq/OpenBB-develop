@@ -1,0 +1,268 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://api.eia.gov/v2/steo/data/?api_key=MOCK_API_KEY&data%5B0%5D=value&end=2024-Q2&facets%5BseriesId%5D%5B%5D=SNGPRR48&facets%5BseriesId%5D%5B%5D=SNGPRWF&frequency=quarterly&length=5000&offset=0&start=2024-Q1
+  response:
+    body:
+      string: '{"response":{"total":"4","dateFormat":"YYYY-\"Q\"Q","frequency":"quarterly","data":[{"period":"2024-Q2","seriesId":"SNGPRR48","seriesDescription":"Shale
+        natural gas production from other U.S. formations","value":"2.7995384615","unit":"billion
+        cubic feet per day"},{"period":"2024-Q2","seriesId":"SNGPRWF","seriesDescription":"Shale
+        natural gas production from Woodford formation","value":"2.5551978022","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRR48","seriesDescription":"Shale
+        natural gas production from other U.S. formations","value":"2.8891538462","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRWF","seriesDescription":"Shale
+        natural gas production from Woodford formation","value":"2.5115934066","unit":"billion
+        cubic feet per day"}],"description":"Monthly short term (18 month) projections
+        using STEO model.  \r\n        Report and interactive projection data browser:  STEO
+        (www.eia.gov\/steo\/)"},"request":{"command":"\/v2\/steo\/data\/","params":{"api_key":"MOCK_API_KEY","frequency":"quarterly","data":["value"],"facets":{"seriesId":["SNGPRWF","SNGPRR48"]},"start":"2024-Q1","end":"2024-Q2","offset":"0","length":"5000"}},"apiVersion":"2.1.13","ExcelAddInVersion":"2.1.0"}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization, X-Params
+      Access-Control-Allow-Methods:
+      - GET,POST,PATCH,PUT,DELETE,OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '1'
+      Alt-Svc:
+      - h3=":443"; ma=93600
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 09 Jul 2026 02:59:12 GMT
+      Etag: null
+      Expires:
+      - Thu, 09 Jul 2026 02:59:12 GMT
+      Pragma:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      Via: null
+      X-Amz-Cf-Id: null
+      X-Amz-Cf-Pop: null
+      X-Api-Umbrella-Request-Id: null
+      X-Cache: null
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Vcap-Request-Id: null
+      content-length:
+      - '1269'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://api.eia.gov/v2/steo/data/?api_key=MOCK_API_KEY&data%5B0%5D=value&end=2024-Q2&facets%5BseriesId%5D%5B%5D=SNGPRBK&facets%5BseriesId%5D%5B%5D=SNGPRBN&facets%5BseriesId%5D%5B%5D=SNGPREF&facets%5BseriesId%5D%5B%5D=SNGPRFY&facets%5BseriesId%5D%5B%5D=SNGPRHA&facets%5BseriesId%5D%5B%5D=SNGPRMC&facets%5BseriesId%5D%5B%5D=SNGPRMP&facets%5BseriesId%5D%5B%5D=SNGPRNI&facets%5BseriesId%5D%5B%5D=SNGPRPM&facets%5BseriesId%5D%5B%5D=SNGPRUA&frequency=quarterly&length=5000&offset=0&start=2024-Q1
+  response:
+    body:
+      string: '{"response":{"total":"20","dateFormat":"YYYY-\"Q\"Q","frequency":"quarterly","data":[{"period":"2024-Q2","seriesId":"SNGPRBK","seriesDescription":"Shale
+        natural gas production from Bakken formation","value":"2.6804835165","unit":"billion
+        cubic feet per day"},{"period":"2024-Q2","seriesId":"SNGPRBN","seriesDescription":"Shale
+        natural gas production from Barnett formation","value":"1.6291868132","unit":"billion
+        cubic feet per day"},{"period":"2024-Q2","seriesId":"SNGPREF","seriesDescription":"Shale
+        natural gas production from Eagle Ford formation","value":"4.2964065934","unit":"billion
+        cubic feet per day"},{"period":"2024-Q2","seriesId":"SNGPRFY","seriesDescription":"Shale
+        natural gas production from Fayetteville formation","value":".82368131868","unit":"billion
+        cubic feet per day"},{"period":"2024-Q2","seriesId":"SNGPRHA","seriesDescription":"Shale
+        natural gas production from Haynesville formation","value":"12.680164835","unit":"billion
+        cubic feet per day"},{"period":"2024-Q2","seriesId":"SNGPRMC","seriesDescription":"Shale
+        natural gas production from Marcellus formation","value":"25.655494505","unit":"billion
+        cubic feet per day"},{"period":"2024-Q2","seriesId":"SNGPRMP","seriesDescription":"Shale
+        natural gas production from Mississippian formation","value":"2.2931978022","unit":"billion
+        cubic feet per day"},{"period":"2024-Q2","seriesId":"SNGPRNI","seriesDescription":"Shale
+        natural gas production from Niobrara Codell formation","value":"2.7577802198","unit":"billion
+        cubic feet per day"},{"period":"2024-Q2","seriesId":"SNGPRPM","seriesDescription":"Shale
+        natural gas production from Permian formations","value":"18.836582418","unit":"billion
+        cubic feet per day"},{"period":"2024-Q2","seriesId":"SNGPRUA","seriesDescription":"Shale
+        natural gas production from Utica formation","value":"6.5375714286","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRBK","seriesDescription":"Shale
+        natural gas production from Bakken formation","value":"2.4957252747","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRBN","seriesDescription":"Shale
+        natural gas production from Barnett formation","value":"1.6476483516","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPREF","seriesDescription":"Shale
+        natural gas production from Eagle Ford formation","value":"4.2740659341","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRFY","seriesDescription":"Shale
+        natural gas production from Fayetteville formation","value":".82079120879","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRHA","seriesDescription":"Shale
+        natural gas production from Haynesville formation","value":"14.08478022","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRMC","seriesDescription":"Shale
+        natural gas production from Marcellus formation","value":"26.666791209","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRMP","seriesDescription":"Shale
+        natural gas production from Mississippian formation","value":"2.3477802198","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRNI","seriesDescription":"Shale
+        natural gas production from Niobrara Codell formation","value":"2.7522307692","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRPM","seriesDescription":"Shale
+        natural gas production from Permian formations","value":"18.083527473","unit":"billion
+        cubic feet per day"},{"period":"2024-Q1","seriesId":"SNGPRUA","seriesDescription":"Shale
+        natural gas production from Utica formation","value":"6.6804505495","unit":"billion
+        cubic feet per day"}],"description":"Monthly short term (18 month) projections
+        using STEO model.  \r\n        Report and interactive projection data browser:  STEO
+        (www.eia.gov\/steo\/)"},"request":{"command":"\/v2\/steo\/data\/","params":{"api_key":"MOCK_API_KEY","frequency":"quarterly","data":["value"],"facets":{"seriesId":["SNGPRBK","SNGPRBN","SNGPREF","SNGPRFY","SNGPRHA","SNGPRMC","SNGPRMP","SNGPRNI","SNGPRPM","SNGPRUA"]},"start":"2024-Q1","end":"2024-Q2","offset":"0","length":"5000"}},"apiVersion":"2.1.13","ExcelAddInVersion":"2.1.0"}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization, X-Params
+      Access-Control-Allow-Methods:
+      - GET,POST,PATCH,PUT,DELETE,OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '1'
+      Alt-Svc:
+      - h3=":443"; ma=93600
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 09 Jul 2026 02:59:12 GMT
+      Etag: null
+      Expires:
+      - Thu, 09 Jul 2026 02:59:12 GMT
+      Pragma:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      Via: null
+      X-Amz-Cf-Id: null
+      X-Amz-Cf-Pop: null
+      X-Api-Umbrella-Request-Id: null
+      X-Cache: null
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Vcap-Request-Id: null
+      content-length:
+      - '4188'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://api.eia.gov/v2/steo/data/?api_key=MOCK_API_KEY&data%5B0%5D=value&end=2024-Q2&facets%5BseriesId%5D%5B%5D=SNGPRL48&facets%5BseriesId%5D%5B%5D=TOPRAC&facets%5BseriesId%5D%5B%5D=TOPRBK&facets%5BseriesId%5D%5B%5D=TOPREF&facets%5BseriesId%5D%5B%5D=TOPRL48&facets%5BseriesId%5D%5B%5D=TOPRMP&facets%5BseriesId%5D%5B%5D=TOPRNI&facets%5BseriesId%5D%5B%5D=TOPRPM&facets%5BseriesId%5D%5B%5D=TOPRR48&facets%5BseriesId%5D%5B%5D=TOPRWF&frequency=quarterly&length=5000&offset=0&start=2024-Q1
+  response:
+    body:
+      string: '{"response":{"total":"20","dateFormat":"YYYY-\"Q\"Q","frequency":"quarterly","data":[{"period":"2024-Q2","seriesId":"SNGPRL48","seriesDescription":"Shale
+        dry natural gas production","value":"83.545285714","unit":"billion cubic feet
+        per day"},{"period":"2024-Q2","seriesId":"TOPRAC","seriesDescription":"Tight
+        oil production from Austin Chalk formation","value":".12834065934","unit":"million
+        barrels per day"},{"period":"2024-Q2","seriesId":"TOPRBK","seriesDescription":"Tight
+        oil production from Bakken formation","value":"1.2292197802","unit":"million
+        barrels per day"},{"period":"2024-Q2","seriesId":"TOPREF","seriesDescription":"Tight
+        oil production from Eagle Ford formation","value":"1.0291208791","unit":"million
+        barrels per day"},{"period":"2024-Q2","seriesId":"TOPRL48","seriesDescription":"Tight
+        oil production","value":"9.0526813187","unit":"million barrels per day"},{"period":"2024-Q2","seriesId":"TOPRMP","seriesDescription":"Tight
+        oil production from Mississippian formation","value":".11931868132","unit":"million
+        barrels per day"},{"period":"2024-Q2","seriesId":"TOPRNI","seriesDescription":"Tight
+        oil production from Niobrara Codell formation","value":".45472527473","unit":"million
+        barrels per day"},{"period":"2024-Q2","seriesId":"TOPRPM","seriesDescription":"Tight
+        oil production from Permian formations","value":"5.6815714286","unit":"million
+        barrels per day"},{"period":"2024-Q2","seriesId":"TOPRR48","seriesDescription":"Tight
+        oil production from other U.S. formations","value":".32669230769","unit":"million
+        barrels per day"},{"period":"2024-Q2","seriesId":"TOPRWF","seriesDescription":"Tight
+        oil production from Woodford formation","value":".083692307692","unit":"million
+        barrels per day"},{"period":"2024-Q1","seriesId":"SNGPRL48","seriesDescription":"Shale
+        dry natural gas production","value":"85.254538462","unit":"billion cubic feet
+        per day"},{"period":"2024-Q1","seriesId":"TOPRAC","seriesDescription":"Tight
+        oil production from Austin Chalk formation","value":".11959340659","unit":"million
+        barrels per day"},{"period":"2024-Q1","seriesId":"TOPRBK","seriesDescription":"Tight
+        oil production from Bakken formation","value":"1.2103846154","unit":"million
+        barrels per day"},{"period":"2024-Q1","seriesId":"TOPREF","seriesDescription":"Tight
+        oil production from Eagle Ford formation","value":".94148351648","unit":"million
+        barrels per day"},{"period":"2024-Q1","seriesId":"TOPRL48","seriesDescription":"Tight
+        oil production","value":"8.7621868132","unit":"million barrels per day"},{"period":"2024-Q1","seriesId":"TOPRMP","seriesDescription":"Tight
+        oil production from Mississippian formation","value":".12654945055","unit":"million
+        barrels per day"},{"period":"2024-Q1","seriesId":"TOPRNI","seriesDescription":"Tight
+        oil production from Niobrara Codell formation","value":".46550549451","unit":"million
+        barrels per day"},{"period":"2024-Q1","seriesId":"TOPRPM","seriesDescription":"Tight
+        oil production from Permian formations","value":"5.5070549451","unit":"million
+        barrels per day"},{"period":"2024-Q1","seriesId":"TOPRR48","seriesDescription":"Tight
+        oil production from other U.S. formations","value":".31197802198","unit":"million
+        barrels per day"},{"period":"2024-Q1","seriesId":"TOPRWF","seriesDescription":"Tight
+        oil production from Woodford formation","value":".079637362637","unit":"million
+        barrels per day"}],"description":"Monthly short term (18 month) projections
+        using STEO model.  \r\n        Report and interactive projection data browser:  STEO
+        (www.eia.gov\/steo\/)"},"request":{"command":"\/v2\/steo\/data\/","params":{"api_key":"MOCK_API_KEY","frequency":"quarterly","data":["value"],"facets":{"seriesId":["TOPRL48","TOPRAC","TOPRBK","TOPREF","TOPRMP","TOPRNI","TOPRPM","TOPRWF","TOPRR48","SNGPRL48"]},"start":"2024-Q1","end":"2024-Q2","offset":"0","length":"5000"}},"apiVersion":"2.1.13","ExcelAddInVersion":"2.1.0"}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization, X-Params
+      Access-Control-Allow-Methods:
+      - GET,POST,PATCH,PUT,DELETE,OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '1'
+      Alt-Svc:
+      - h3=":443"; ma=93600
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 09 Jul 2026 02:59:12 GMT
+      Etag: null
+      Expires:
+      - Thu, 09 Jul 2026 02:59:12 GMT
+      Pragma:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      Via: null
+      X-Amz-Cf-Id: null
+      X-Amz-Cf-Pop: null
+      X-Api-Umbrella-Request-Id: null
+      X-Cache: null
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Vcap-Request-Id: null
+      content-length:
+      - '3893'
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,75 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/vnd.sdmx.data+csv; version=2.0.0; labels=both
+    method: GET
+    uri: https://sdmx.oecd.org/public/rest/v2/data/dataflow/OECD.SDD.STES/DSD_STES%40DF_CLI/4.1/G20.M.LI.*.*.AA.IX.*.H?c%5BTIME_PERIOD%5D=ge%3A2023-01%2Cle%3A2023-06&detail=full&dimensionAtObservation=TIME_PERIOD
+  response:
+    body:
+      string: "STRUCTURE,STRUCTURE_ID,ACTION,REF_AREA: Reference area,FREQ: Frequency
+        of observation,MEASURE: Measure,UNIT_MEASURE: Unit of measure,ACTIVITY: Economic
+        activity,ADJUSTMENT: Adjustment,TRANSFORMATION: Transformation,TIME_HORIZ:
+        Time horizon,METHODOLOGY: Calculation methodology,TIME_PERIOD: Time period,OBS_VALUE,OBS_STATUS:
+        Observation status,UNIT_MULT: Unit multiplier,DECIMALS: Decimals,BASE_PER:
+        Base period\r\nDATAFLOW,OECD.SDD.STES:DF_CLI(4.1),I,G20: G20,M: Monthly,LI:
+        Composite leading indicator (CLI),IX: Index,_Z: Not applicable,AA: Amplitude
+        adjusted,IX: Index,_Z: Not applicable,H: OECD harmonised,2023-04,99.61441,A:
+        Normal value,0: Units,2: Two,\r\nDATAFLOW,OECD.SDD.STES:DF_CLI(4.1),I,G20:
+        G20,M: Monthly,LI: Composite leading indicator (CLI),IX: Index,_Z: Not applicable,AA:
+        Amplitude adjusted,IX: Index,_Z: Not applicable,H: OECD harmonised,2023-05,99.74016,A:
+        Normal value,0: Units,2: Two,\r\nDATAFLOW,OECD.SDD.STES:DF_CLI(4.1),I,G20:
+        G20,M: Monthly,LI: Composite leading indicator (CLI),IX: Index,_Z: Not applicable,AA:
+        Amplitude adjusted,IX: Index,_Z: Not applicable,H: OECD harmonised,2023-06,99.85122,A:
+        Normal value,0: Units,2: Two,\r\nDATAFLOW,OECD.SDD.STES:DF_CLI(4.1),I,G20:
+        G20,M: Monthly,LI: Composite leading indicator (CLI),IX: Index,_Z: Not applicable,AA:
+        Amplitude adjusted,IX: Index,_Z: Not applicable,H: OECD harmonised,2023-01,99.20787,A:
+        Normal value,0: Units,2: Two,\r\nDATAFLOW,OECD.SDD.STES:DF_CLI(4.1),I,G20:
+        G20,M: Monthly,LI: Composite leading indicator (CLI),IX: Index,_Z: Not applicable,AA:
+        Amplitude adjusted,IX: Index,_Z: Not applicable,H: OECD harmonised,2023-02,99.34254,A:
+        Normal value,0: Units,2: Two,\r\nDATAFLOW,OECD.SDD.STES:DF_CLI(4.1),I,G20:
+        G20,M: Monthly,LI: Composite leading indicator (CLI),IX: Index,_Z: Not applicable,AA:
+        Amplitude adjusted,IX: Index,_Z: Not applicable,H: OECD harmonised,2023-03,99.48336,A:
+        Normal value,0: Units,2: Two,\r\n"
+    headers:
+      CF-RAY:
+      - 9dc5fe091884497b-YVR
+      Cache-Control:
+      - public,max-age=7200
+      Connection:
+      - keep-alive
+      Content-Language:
+      - en,en-US
+      Content-Type:
+      - application/vnd.sdmx.data+csv; version=2.0.0; labels=both; charset=utf-8
+      Date:
+      - Sat, 14 Mar 2026 20:22:47 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=2592000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - X-Range, Accept, Accept-Language, Accept-Encoding, Accept-Charset,Accept,Accept-Encoding,Accept-Encoding
+      X-Server-Node:
+      - Server 2
+      alt-svc:
+      - h3=":443"; ma=86400
+      api-supported-versions:
+      - '2'
+      cf-cache-status:
+      - MISS
+      last-modified:
+      - Sat, 14 Mar 2026 20:22:47 GMT
+      set-cookie:
+      - __cf_bm=tcF6EsCXREWUlm_hXUHuU._ojE9s1zRqBPqU79w4Gzo-1773519765.9402282-1.0.1.1-ojxSSyhZyxC_vbcccL7uvRXCP1sBh3USJz95UN1l8_dw_joxoCtU8D7ullyRoNYcomUqrMTL7Kel0gzVQIBEcbAoqDql30HSwtPr2cqTjoFekxJ_OFwnykNBkA.1SXYs;
+        HttpOnly; Secure; Path=/; Domain=oecd.org; Expires=Sat, 14 Mar 2026 20:52:47
+        GMT
+      - _cfuvid=jeGCkjlxzC2Kealz_Pa0lZSDYFprZUg9td7hOrlDhck-1773519765.9402282-1.0.1.1-wMdJ1YRsxVSHKNSOqgiYA9lk1crbG5YXkX_My3b6iLY;
+        HttpOnly; SameSite=None; Secure; Path=/; Domain=oecd.org
+    status:
+      code: 200
+      message: OK
+version: 1

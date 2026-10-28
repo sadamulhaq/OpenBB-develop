@@ -1,0 +1,77 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-yaml
+        exclude: 'construct.yaml'
+      - id: check-json
+      - id: end-of-file-fixer
+        exclude_types: [css, markdown, text, svg]
+      - id: trailing-whitespace
+        exclude_types: [html, markdown, text]
+      - id: check-merge-conflict
+      - id: detect-private-key
+  - repo: local
+    hooks:
+      - id: ruff-format
+        name: ruff format
+        entry: ruff format --force-exclude
+        language: system
+        types_or: [python, pyi]
+        files: '^(openbb_platform/|cli/)'
+        exclude: '^openbb_platform/(tests|extensions/tests|providers/tests|core/openbb/package)/'
+      - id: ruff-check
+        name: ruff check
+        entry: ruff check --force-exclude
+        language: system
+        types_or: [python, pyi]
+        files: '^(openbb_platform/|cli/)'
+        exclude: '^openbb_platform/(tests|extensions/tests|providers/tests|core/openbb/package)/'
+      - id: ty
+        name: ty check (per package root)
+        entry: .github/scripts/ty_per_package.sh
+        language: script
+        types_or: [python, pyi]
+        files: '^(openbb_platform/|cli/).*\.pyi?$'
+        exclude: '(^|/)(tests|integration)/|(^|/)test_[^/]*\.py$|^openbb_platform/core/openbb/package/'
+      - id: codespell
+        name: codespell
+        entry: bash -c 'codespell --ignore-words=.codespell.ignore --skip="$(tr "\n" "," < .codespell.skip | sed "s/,$//")" --quiet-level=2 "${@/#/./}"' --
+        language: system
+        types: [text]
+      - id: check-generated-files
+        name: Check for generated files
+        entry: bash
+        args:
+          - -c
+          - |
+            if git ls-files | grep "^openbb_platform/core/openbb/package/" | grep -v "^openbb_platform/core/openbb/package/__init__\.py$"; then
+              echo "Error: Attempting to commit generated files in package directory. Only __init__.py should exist."
+              exit 1
+            fi
+        language: system
+        pass_filenames: false
+        always_run: true
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.26.0
+    hooks:
+      - id: markdownlint
+        files: '^([^/]+|changelogs/[^/]+|openbb_platform/.+)\.md$'
+        exclude: '^openbb_platform/extensions/mcp_server/openbb_mcp_server/skills/|^openbb_platform/providers/sec/openbb_sec/utils/STATEMENT_SCHEMA_README\.md$'
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.8.1
+    hooks:
+      - id: nbstripout
+        name: Strip notebooks output
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        args:
+          [
+            "--baseline",
+            ".secrets.baseline",
+            "--exclude-files",
+            "cassettes/.*|record/.*",
+          ]
+        exclude: package.lock.json

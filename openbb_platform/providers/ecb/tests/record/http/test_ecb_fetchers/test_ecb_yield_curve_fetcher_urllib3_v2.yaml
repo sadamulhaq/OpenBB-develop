@@ -1,0 +1,1767 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+    method: GET
+    uri: https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_3M+SR_6M+SR_1Y+SR_2Y+SR_3Y+SR_4Y+SR_5Y+SR_6Y+SR_7Y+SR_8Y+SR_9Y+SR_10Y+SR_11Y+SR_12Y+SR_13Y+SR_14Y+SR_15Y+SR_16Y+SR_17Y+SR_18Y+SR_19Y+SR_20Y+SR_21Y+SR_22Y+SR_23Y+SR_24Y+SR_25Y+SR_26Y+SR_27Y+SR_28Y+SR_29Y+SR_30Y?detail=full&endPeriod=2023-11-21&format=jsondata&startPeriod=2023-11-06
+  response:
+    body:
+      string: "{\n    \"header\": {\n        \"id\": \"46d32854-1e6c-467e-9c60-ea9702a04f9b\",\n
+        \       \"test\": false,\n        \"prepared\": \"2026-06-25T00:54:54.481+02:00\",\n
+        \       \"sender\": {\n            \"id\": \"ECB\"\n        }\n    },\n    \"dataSets\":
+        [\n        {\n            \"action\": \"Replace\",\n            \"validFrom\":
+        \"2026-06-25T00:54:54.481+02:00\",\n            \"series\": {\n                \"0:0:0:0:0:0:0\":
+        {\n                    \"attributes\": [\n                        0,\n                        null,\n
+        \                       0,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       0,\n                        0,\n                        0\n
+        \                   ],\n                    \"observations\": {\n                        \"0\":
+        [\n                            2.7691646463,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.7184321682,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.6835389676,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.7002831579,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.7551960877,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.7881690124,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.6848069955,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.6871053051,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.6349265771,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.6413046564,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.6603005277,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.624200413,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:1\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        1,\n                        1,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.8057628622,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.7523378891,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.7141806918,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.733039934,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.7921145098,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.8250823352,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.7176271997,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.7219204117,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.6679991639,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.6770073087,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.6940507117,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.6568095994,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:2\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        2,\n                        2,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.8409703019,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.785155315,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.7430991531,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.7639231865,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.8268186277,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.8598225135,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.7487032982,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.7547197782,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.6992289443,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.7106115674,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.725943034,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.6877426667,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:3\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        3,\n                        3,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.8741569069,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.8162137951,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.769704773,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.7923193185,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.858672728,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.8917366499,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.7773609794,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.7848777359,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.7279832574,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.7414914983,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.7553198303,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.7163065012,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:4\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        4,\n                        4,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.9049609434,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.8451199395,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.7936842524,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.817904252,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.8873478721,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.9204841321,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8032357203,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.8120659066,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.7539251515,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.7693206382,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.7818293837,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.7421231537,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:5\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        5,\n                        5,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.9331928761,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.8716586885,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8148990095,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.8405369087,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.9127086554,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.9459215682,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8261593126,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.8361437696,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.7769048171,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.7939616639,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8053136829,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.7650146456,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:6\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        6,\n                        6,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.9587756974,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.8957318968,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8333224188,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.8601933814,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.9347432617,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.9680316617,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8460896805,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.8570910234,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.796892445,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.815398195,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8257389964,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.7849316681,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:7\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        7,\n                        7,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.9817067188,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.9173189888,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8489998545,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.8769250279,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.9535189609,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.9868779387,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8630661654,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.8749645261,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8139354602,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8336913838,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8431516465,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.801908131,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:8\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        8,\n                        8,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.002032459,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.9364510795,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8620226252,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.8908311391,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.969153106,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.00257523,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8771803339,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.8898702138,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8281306174,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8489516095,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.857649146,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8160314753,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:9\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        9,\n                        9,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0198317828,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.9531935799,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8725106414,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.9020407696,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.9817938689,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.0152700569,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8885565451,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9019444335,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8396054369,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8613196685,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.869360994,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8274228995,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:10\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        10,\n                        10,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.4199990172,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.4434864461,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            3.429405031,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            3.4429514916,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            3.4944354118,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.4876100111,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            3.4465972656,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            3.4206545478,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            3.3922313117,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            3.3835584836,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            3.4156190562,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            3.4045932727,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:11\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        11,\n                        11,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0352043815,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.967634294,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8806007192,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.9107004811,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.9916072622,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.025127409,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8973388201,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9113413521,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8485056738,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8709540917,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8784357083,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.836223989,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:12\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        12,\n                        12,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0482627943,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.9798751599,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8864386077,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.9169659926,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.9987683118,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.0323217448,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.903681876,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9182243816,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8549867718,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.878022512,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8850319794,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.842587578,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:13\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        13,\n                        13,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0591268281,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.9900264585,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8901735254,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.920996462,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            3.0034550249,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.0370308356,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.9077449676,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9227603078,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8592080034,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8826957574,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8893126009,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8466714652,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:14\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        14,\n                        14,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0679196292,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.9982027237,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.891954416,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.922950571,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            3.0058442718,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.0394315573,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.9096876532,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9251152716,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8613284501,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8851438123,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8914403043,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8486340854,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:15\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        15,\n                        15,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0747649129,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.0045198442,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8919273975,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.9229838614,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            3.0061089969,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.0396970345,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.9096668979,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9254520375,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8615042608,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8855330756,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8915749155,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8486315424,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:16\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        16,\n                        16,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0797850127,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.0090930129,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8902340505,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.9212469511,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            3.0044163614,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.0379947345,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.9078351185,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9239281658,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8598868102,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8840245299,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8898714417,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8468155994,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:17\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        17,\n                        17,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0830995195,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.0120352833,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.887010302,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.9178843741,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            3.0009265471,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.0344852334,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.9043388953,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9206948252,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8566214942,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8807725558,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8864788182,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8433323495,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:18\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        18,\n                        18,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0848243469,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.0134565674,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8823857334,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.9130338646,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.9957920303,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.0293214624,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8993181624,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9158960631,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8518469799,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8759242065,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8815391254,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8383213722,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:19\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        19,\n                        19,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0850711074,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.0134629554,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.876483192,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.9068259598,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.9891571921,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.022648297,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8929057389,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9096684022,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8456947827,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8696188111,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8751871448,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8319152394,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:20\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        20,\n                        20,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0839467168,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.0121562727,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8694186211,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.8993838302,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.9811581683,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.014602391,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8852271075,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9021406711,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8382890767,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8619878143,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8675501558,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8242392729,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:21\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        21,\n                        21,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0049265289,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.0134784955,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.9855487514,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            3.0000366509,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            3.0472267959,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.0713345527,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            3.0162404941,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.9767360733,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.9380674081,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.9253266084,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.9716816978,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.9623133778,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:22\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        22,\n                        22,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.0815531669,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.009633811,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.8613010451,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.890823273,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.9719228711,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.0053121858,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.8764003682,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.8934340031,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.8297466723,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.8531547827,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.8587479071,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.8154114815,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:23\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        23,\n                        23,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.7891859858,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.7556682992,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            3.7833054818,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            3.7777012021,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            3.7562599082,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.721776019,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            3.7013405394,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            3.7564511137,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            3.7939271226,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            3.7765881593,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            3.7610657022,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            3.7323721426,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:24\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        24,\n                        24,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.7776576715,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.7679492802,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.7373145884,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.7476278595,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.7840140186,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.8179573124,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.7546824153,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.7231019285,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.6847086925,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.6704730919,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.7147889087,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.7000604081,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:25\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        25,\n                        25,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.6753512967,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.6538437718,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.6232883933,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.6310871005,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.6637253433,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.6991500444,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.6291373314,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.6064392557,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.5671599797,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.5544308115,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.5937250761,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.5733686,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:26\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        26,\n                        26,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.6416697486,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.6122255667,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.5823635434,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.5897566743,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.6233494747,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.6582018284,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.5817911423,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.5661032755,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.5248703556,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.5150490001,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.5494944362,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.5246216753,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:27\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        27,\n                        27,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           3.6769294948,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            3.6790918285,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            3.6866209116,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            3.6906063888,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            3.7112045471,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            3.6827692786,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            3.6541398583,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            3.6685818435,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            3.6712463225,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            3.6601144498,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            3.6666053872,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            3.6463936813,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:28\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        28,\n                        28,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.6442092088,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.6088312939,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.5794161129,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.5878054462,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.6246797958,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.6587792186,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.5762096428,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.5658700388,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.5223106431,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.5158821009,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.5461752395,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.5178551466,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:29\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        29,\n                        29,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.6656710274,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.6255054572,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.5959058936,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.6060607594,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.6472344287,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.6807872733,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.5923847413,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.5862191128,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.5403031867,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.5373322478,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.5641196841,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.5331493674,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:30\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        30,\n                        30,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.6967408607,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.6525406866,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.6219752094,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.6342560998,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.6800753806,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.7132958785,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.6194623378,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.6166543771,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.5684881483,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.5688522514,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.5926539062,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.5596006362,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               },\n                \"0:0:0:0:0:0:31\": {\n                    \"attributes\":
+        [\n                        0,\n                        null,\n                        0,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        null,\n
+        \                       null,\n                        null,\n                        0,\n
+        \                       null,\n                        0,\n                        null,\n
+        \                       null,\n                        31,\n                        31,\n
+        \                       0,\n                        0\n                    ],\n
+        \                   \"observations\": {\n                        \"0\": [\n
+        \                           2.7322346692,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"1\": [\n                            2.6845514838,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"2\":
+        [\n                            2.6522101915,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"3\": [\n                            2.6667345713,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"4\":
+        [\n                            2.7171958432,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"5\": [\n                            2.7502404903,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"6\":
+        [\n                            2.651416852,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"7\": [\n                            2.6513808394,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"8\":
+        [\n                            2.6011213599,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"9\": [\n                            2.6046138943,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ],\n                        \"10\":
+        [\n                            2.6258440019,\n                            0,\n
+        \                           0,\n                            null,\n                            null\n
+        \                       ],\n                        \"11\": [\n                            2.5911160726,\n
+        \                           0,\n                            0,\n                            null,\n
+        \                           null\n                        ]\n                    }\n
+        \               }\n            }\n        }\n    ],\n    \"structure\": {\n
+        \       \"links\": [\n            {\n                \"title\": \"Financial
+        market data - yield curve\",\n                \"rel\": \"dataflow\",\n                \"href\":
+        \"https://data-api.ecb.europa.eu:443/service/dataflow/ECB/YC/1.0\"\n            }\n
+        \       ],\n        \"name\": \"Financial market data - yield curve\",\n        \"dimensions\":
+        {\n            \"series\": [\n                {\n                    \"id\":
+        \"FREQ\",\n                    \"name\": \"Frequency\",\n                    \"values\":
+        [\n                        {\n                            \"id\": \"B\",\n
+        \                           \"name\": \"Daily - businessweek\"\n                        }\n
+        \                   ]\n                },\n                {\n                    \"id\":
+        \"REF_AREA\",\n                    \"name\": \"Reference area\",\n                    \"values\":
+        [\n                        {\n                            \"id\": \"U2\",\n
+        \                           \"name\": \"Euro area (changing composition)\"\n
+        \                       }\n                    ]\n                },\n                {\n
+        \                   \"id\": \"CURRENCY\",\n                    \"name\": \"Currency\",\n
+        \                   \"values\": [\n                        {\n                            \"id\":
+        \"EUR\",\n                            \"name\": \"Euro\"\n                        }\n
+        \                   ]\n                },\n                {\n                    \"id\":
+        \"PROVIDER_FM\",\n                    \"name\": \"Financial market provider\",\n
+        \                   \"values\": [\n                        {\n                            \"id\":
+        \"4F\",\n                            \"name\": \"ECB\"\n                        }\n
+        \                   ]\n                },\n                {\n                    \"id\":
+        \"INSTRUMENT_FM\",\n                    \"name\": \"Financial market instrument\",\n
+        \                   \"values\": [\n                        {\n                            \"id\":
+        \"G_N_A\",\n                            \"name\": \"Government bond, nominal,
+        all issuers whose rating is triple A\"\n                        }\n                    ]\n
+        \               },\n                {\n                    \"id\": \"PROVIDER_FM_ID\",\n
+        \                   \"name\": \"Financial market provider identifier\",\n
+        \                   \"values\": [\n                        {\n                            \"id\":
+        \"SV_C_YM\",\n                            \"name\": \"Svensson model - continuous
+        compounding - yield error minimisation\"\n                        }\n                    ]\n
+        \               },\n                {\n                    \"id\": \"DATA_TYPE_FM\",\n
+        \                   \"name\": \"Financial market data type\",\n                    \"values\":
+        [\n                        {\n                            \"id\": \"SR_10Y\",\n
+        \                           \"name\": \"Yield curve spot rate, 10-year maturity\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"SR_11Y\",\n                            \"name\": \"Yield curve spot rate,
+        11-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_12Y\",\n                            \"name\":
+        \"Yield curve spot rate, 12-year maturity\"\n                        },\n
+        \                       {\n                            \"id\": \"SR_13Y\",\n
+        \                           \"name\": \"Yield curve spot rate, 13-year maturity\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"SR_14Y\",\n                            \"name\": \"Yield curve spot rate,
+        14-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_15Y\",\n                            \"name\":
+        \"Yield curve spot rate, 15-year maturity\"\n                        },\n
+        \                       {\n                            \"id\": \"SR_16Y\",\n
+        \                           \"name\": \"Yield curve spot rate, 16-year maturity\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"SR_17Y\",\n                            \"name\": \"Yield curve spot rate,
+        17-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_18Y\",\n                            \"name\":
+        \"Yield curve spot rate, 18-year maturity\"\n                        },\n
+        \                       {\n                            \"id\": \"SR_19Y\",\n
+        \                           \"name\": \"Yield curve spot rate, 19-year maturity\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"SR_1Y\",\n                            \"name\": \"Yield curve spot rate,
+        1-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_20Y\",\n                            \"name\":
+        \"Yield curve spot rate, 20-year maturity\"\n                        },\n
+        \                       {\n                            \"id\": \"SR_21Y\",\n
+        \                           \"name\": \"Yield curve spot rate, 21-year maturity\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"SR_22Y\",\n                            \"name\": \"Yield curve spot rate,
+        22-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_23Y\",\n                            \"name\":
+        \"Yield curve spot rate, 23-year maturity\"\n                        },\n
+        \                       {\n                            \"id\": \"SR_24Y\",\n
+        \                           \"name\": \"Yield curve spot rate, 24-year maturity\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"SR_25Y\",\n                            \"name\": \"Yield curve spot rate,
+        25-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_26Y\",\n                            \"name\":
+        \"Yield curve spot rate, 26-year maturity\"\n                        },\n
+        \                       {\n                            \"id\": \"SR_27Y\",\n
+        \                           \"name\": \"Yield curve spot rate, 27-year maturity\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"SR_28Y\",\n                            \"name\": \"Yield curve spot rate,
+        28-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_29Y\",\n                            \"name\":
+        \"Yield curve spot rate, 29-year maturity\"\n                        },\n
+        \                       {\n                            \"id\": \"SR_2Y\",\n
+        \                           \"name\": \"Yield curve spot rate, 2-year maturity\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"SR_30Y\",\n                            \"name\": \"Yield curve spot rate,
+        30-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_3M\",\n                            \"name\":
+        \"Yield curve spot rate, 3-month maturity\"\n                        },\n
+        \                       {\n                            \"id\": \"SR_3Y\",\n
+        \                           \"name\": \"Yield curve spot rate, 3-year maturity\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"SR_4Y\",\n                            \"name\": \"Yield curve spot rate,
+        4-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_5Y\",\n                            \"name\":
+        \"Yield curve spot rate, 5-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_6M\",\n                            \"name\":
+        \"Yield curve spot rate, 6-month maturity\"\n                        },\n
+        \                       {\n                            \"id\": \"SR_6Y\",\n
+        \                           \"name\": \"Yield curve spot rate, 6-year maturity\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"SR_7Y\",\n                            \"name\": \"Yield curve spot rate,
+        7-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_8Y\",\n                            \"name\":
+        \"Yield curve spot rate, 8-year maturity\"\n                        },\n                        {\n
+        \                           \"id\": \"SR_9Y\",\n                            \"name\":
+        \"Yield curve spot rate, 9-year maturity\"\n                        }\n                    ]\n
+        \               }\n            ],\n            \"observation\": [\n                {\n
+        \                   \"id\": \"TIME_PERIOD\",\n                    \"name\":
+        \"Time period or range\",\n                    \"role\": \"time\",\n                    \"values\":
+        [\n                        {\n                            \"id\": \"2023-11-06\",\n
+        \                           \"name\": \"2023-11-06\",\n                            \"start\":
+        \"2023-11-06T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-06T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-07\",\n                            \"name\": \"2023-11-07\",\n                            \"start\":
+        \"2023-11-07T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-07T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-08\",\n                            \"name\": \"2023-11-08\",\n                            \"start\":
+        \"2023-11-08T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-08T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-09\",\n                            \"name\": \"2023-11-09\",\n                            \"start\":
+        \"2023-11-09T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-09T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-10\",\n                            \"name\": \"2023-11-10\",\n                            \"start\":
+        \"2023-11-10T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-10T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-13\",\n                            \"name\": \"2023-11-13\",\n                            \"start\":
+        \"2023-11-13T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-13T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-14\",\n                            \"name\": \"2023-11-14\",\n                            \"start\":
+        \"2023-11-14T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-14T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-15\",\n                            \"name\": \"2023-11-15\",\n                            \"start\":
+        \"2023-11-15T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-15T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-16\",\n                            \"name\": \"2023-11-16\",\n                            \"start\":
+        \"2023-11-16T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-16T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-17\",\n                            \"name\": \"2023-11-17\",\n                            \"start\":
+        \"2023-11-17T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-17T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-20\",\n                            \"name\": \"2023-11-20\",\n                            \"start\":
+        \"2023-11-20T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-20T23:59:59.999+01:00\"\n
+        \                       },\n                        {\n                            \"id\":
+        \"2023-11-21\",\n                            \"name\": \"2023-11-21\",\n                            \"start\":
+        \"2023-11-21T00:00:00.000+01:00\",\n                            \"end\": \"2023-11-21T23:59:59.999+01:00\"\n
+        \                       }\n                    ]\n                }\n            ]\n
+        \       },\n        \"attributes\": {\n            \"series\": [\n                {\n
+        \                   \"id\": \"TIME_FORMAT\",\n                    \"name\":
+        \"Time format code\",\n                    \"values\": [\n                        {\n
+        \                           \"name\": \"P1D\"\n                        }\n
+        \                   ]\n                },\n                {\n                    \"id\":
+        \"BREAKS\",\n                    \"name\": \"Breaks\",\n                    \"values\":
+        [\n                    ]\n                },\n                {\n                    \"id\":
+        \"COLLECTION\",\n                    \"name\": \"Collection indicator\",\n
+        \                   \"values\": [\n                        {\n                            \"id\":
+        \"E\",\n                            \"name\": \"End of period\"\n                        }\n
+        \                   ]\n                },\n                {\n                    \"id\":
+        \"COMPILING_ORG\",\n                    \"name\": \"Compiling organisation\",\n
+        \                   \"values\": [\n                    ]\n                },\n
+        \               {\n                    \"id\": \"DISS_ORG\",\n                    \"name\":
+        \"Data dissemination organisation\",\n                    \"values\": [\n
+        \                   ]\n                },\n                {\n                    \"id\":
+        \"DOM_SER_IDS\",\n                    \"name\": \"Domestic series ids\",\n
+        \                   \"values\": [\n                    ]\n                },\n
+        \               {\n                    \"id\": \"FM_CONTRACT_TIME\",\n                    \"name\":
+        \"Contract month/expired date\",\n                    \"values\": [\n                    ]\n
+        \               },\n                {\n                    \"id\": \"FM_COUPON_RATE\",\n
+        \                   \"name\": \"Coupon rate of the bond\",\n                    \"values\":
+        [\n                    ]\n                },\n                {\n                    \"id\":
+        \"FM_IDENTIFIER\",\n                    \"name\": \"Financial instrument Identifier\",\n
+        \                   \"values\": [\n                    ]\n                },\n
+        \               {\n                    \"id\": \"FM_LOT_SIZE\",\n                    \"name\":
+        \"Lot size units\",\n                    \"values\": [\n                    ]\n
+        \               },\n                {\n                    \"id\": \"FM_MATURITY\",\n
+        \                   \"name\": \"Bond maturity\",\n                    \"values\":
+        [\n                    ]\n                },\n                {\n                    \"id\":
+        \"FM_OUTS_AMOUNT\",\n                    \"name\": \"Outstanding amount\",\n
+        \                   \"values\": [\n                    ]\n                },\n
+        \               {\n                    \"id\": \"FM_PUT_CALL\",\n                    \"name\":
+        \"options type\",\n                    \"values\": [\n                    ]\n
+        \               },\n                {\n                    \"id\": \"FM_STRIKE_PRICE\",\n
+        \                   \"name\": \"Strike price of the options\",\n                    \"values\":
+        [\n                    ]\n                },\n                {\n                    \"id\":
+        \"PUBL_MU\",\n                    \"name\": \"Source publication (Euro area
+        only)\",\n                    \"values\": [\n                    ]\n                },\n
+        \               {\n                    \"id\": \"PUBL_PUBLIC\",\n                    \"name\":
+        \"Source publication (public)\",\n                    \"values\": [\n                    ]\n
+        \               },\n                {\n                    \"id\": \"UNIT_INDEX_BASE\",\n
+        \                   \"name\": \"Unit index base\",\n                    \"values\":
+        [\n                    ]\n                },\n                {\n                    \"id\":
+        \"COMPILATION\",\n                    \"name\": \"Compilation\",\n                    \"values\":
+        [\n                        {\n                            \"name\": \"Technical
+        notes are available at the following link: https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_area_yield_curves/shared/pdf/technical_notes.pdf\"\n
+        \                       }\n                    ]\n                },\n                {\n
+        \                   \"id\": \"COVERAGE\",\n                    \"name\": \"Coverage\",\n
+        \                   \"values\": [\n                    ]\n                },\n
+        \               {\n                    \"id\": \"DECIMALS\",\n                    \"name\":
+        \"Decimals\",\n                    \"values\": [\n                        {\n
+        \                           \"id\": \"6\",\n                            \"name\":
+        \"Six\"\n                        }\n                    ]\n                },\n
+        \               {\n                    \"id\": \"SOURCE_AGENCY\",\n                    \"name\":
+        \"Source agency\",\n                    \"values\": [\n                    ]\n
+        \               },\n                {\n                    \"id\": \"SOURCE_PUB\",\n
+        \                   \"name\": \"Publication source\",\n                    \"values\":
+        [\n                    ]\n                },\n                {\n                    \"id\":
+        \"TITLE\",\n                    \"name\": \"Title\",\n                    \"values\":
+        [\n                        {\n                            \"name\": \"AAA
+        yield curve - 10-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 11-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 12-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 13-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 14-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 15-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 16-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 17-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 18-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 19-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 1-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 20-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 21-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 22-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 23-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 24-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 25-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 26-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 27-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 28-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 29-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 2-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 30-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 3-month spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 3-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 4-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 5-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 6-month spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 6-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 7-year spot rate\"\n
+        \                       },\n                        {\n                            \"name\":
+        \"AAA yield curve - 8-year spot rate\"\n                        },\n                        {\n
+        \                           \"name\": \"AAA yield curve - 9-year spot rate\"\n
+        \                       }\n                    ]\n                },\n                {\n
+        \                   \"id\": \"TITLE_COMPL\",\n                    \"name\":
+        \"Title complement\",\n                    \"values\": [\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 10-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 11-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 12-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 13-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 14-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 15-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 16-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 17-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 18-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 19-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 1-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 20-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 21-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 22-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 23-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 24-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 25-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 26-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 27-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 28-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 29-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 2-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 30-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 3-month maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 3-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 4-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 5-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 6-month maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 6-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 7-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 8-year maturity\"\n                        },\n                        {\n
+        \                           \"name\": \"Euro area (changing composition) -
+        Government bond, nominal, all issuers whose rating is triple A - Svensson
+        model - continuous compounding - yield error minimisation - Yield curve spot
+        rate, 9-year maturity\"\n                        }\n                    ]\n
+        \               },\n                {\n                    \"id\": \"UNIT\",\n
+        \                   \"name\": \"Unit\",\n                    \"values\": [\n
+        \                       {\n                            \"id\": \"PCPA\",\n
+        \                           \"name\": \"Percent per annum\"\n                        }\n
+        \                   ]\n                },\n                {\n                    \"id\":
+        \"UNIT_MULT\",\n                    \"name\": \"Unit multiplier\",\n                    \"values\":
+        [\n                        {\n                            \"id\": \"0\",\n
+        \                           \"name\": \"Units\"\n                        }\n
+        \                   ]\n                }\n            ],\n            \"observation\":
+        [\n                {\n                    \"id\": \"OBS_STATUS\",\n                    \"name\":
+        \"Observation status\",\n                    \"values\": [\n                        {\n
+        \                           \"id\": \"A\",\n                            \"name\":
+        \"Normal value\"\n                        }\n                    ]\n                },\n
+        \               {\n                    \"id\": \"OBS_CONF\",\n                    \"name\":
+        \"Observation confidentiality\",\n                    \"values\": [\n                        {\n
+        \                           \"id\": \"F\",\n                            \"name\":
+        \"Free\"\n                        }\n                    ]\n                },\n
+        \               {\n                    \"id\": \"OBS_PRE_BREAK\",\n                    \"name\":
+        \"Pre-break observation value\",\n                    \"values\": [\n                    ]\n
+        \               },\n                {\n                    \"id\": \"OBS_COM\",\n
+        \                   \"name\": \"Observation comment\",\n                    \"values\":
+        [\n                    ]\n                }\n            ]\n        }\n    }\n}"
+    headers:
+      Cache-Control:
+      - max-age=30
+      Connection:
+      - keep-alive
+      Content-Disposition:
+      - attachment;filename=data.json
+      Content-Type:
+      - application/vnd.sdmx.data+json;version=1.0.0-wd
+      Date:
+      - Wed, 24 Jun 2026 22:55:58 GMT
+      Expires:
+      - Wed, 24 Jun 2026 22:55:24 GMT
+      Last-Modified:
+      - Wed, 24 Jun 2026 10:00:00 GMT
+      Server:
+      - myracloud
+      Strict-Transport-Security:
+      - max-age=31536000 ; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - accept
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1
