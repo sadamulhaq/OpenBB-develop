@@ -168,13 +168,5 @@ All names, logos, and brands of third parties that may be referenced in our site
 
 Our use of these names, logos, and brands is for identification purposes only, and does not imply any such endorsement, sponsorship, or affiliation.
 
-## 5. Contacts
-
-If you have any questions about the platform or anything OpenBB, feel free to email us at `support@openbb.co`
-
-If you want to say hi, or are interested in partnering with us, feel free to reach us at `hello@openbb.co`
-
-Any of our social media platforms: [openbb.co/links](https://openbb.co/links)
-
 
 
